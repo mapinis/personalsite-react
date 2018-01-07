@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router";
 import { BodyRenderer, createContainer, query } from "@phenomic/preset-react-app/lib/client";
 
+import Layout from "./Layout.js";
+
 const General = ({ isLoading, page }) => (
-  <div className="content">
+  <Layout className="content">
     { isLoading && "Loading..."}
     {!isLoading &&
       page.node && (
@@ -13,7 +15,7 @@ const General = ({ isLoading, page }) => (
         </div>
       )
     }
-  </div>
+  </Layout>
 );
 
 const GeneralContainer = createContainer(General, props => ({
