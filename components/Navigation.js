@@ -1,9 +1,7 @@
 import React from "react";
 import { ListGroup, ListGroupItem, ListGroupItemHeading } from "reactstrap";
 import { browserHistory } from "react-router";
-import Img from "react-image";
-
-console.log(browserHistory.getCurrentLocation());
+//import Img from "react-image";
 
 const Navigation = () => (
   <div id="App_Nav">

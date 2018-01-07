@@ -6,6 +6,7 @@ import GeneralContainer from "./components/General.js"
 
 export default createApp(() => (
   <Router history={browserHistory}>
+    <Route path="/" component={GeneralContainer}/>
     <Route path="/*" component={GeneralContainer}/>
   </Router>
 ));
