@@ -1,4 +1,4 @@
-.App {
+#App {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     margin: 3% 20%;
@@ -7,16 +7,41 @@
     align-items: stretch;
 }
 
-.App_Nav {
+#App_Nav {
     min-width: 100px;
     width: 200px;
+    margin-right: 25px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-.content {
+#content {
     max-width: calc(60% - 200px)
 }
 
-.App_Title {
+#App_Nav_Title {
     font-size: 2em;
     margin-bottom: -3px;
+    text-align: center;
+}
+
+#App_Nav_Image {
+    width: 170px;
+    height: auto;
+    border: 2px solid black;
+}
+
+#App_Nav_Subtitle {
+    color: grey;
+    margin-bottom: -3px;
+}
+
+#App_Nav_Email {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: grey;
 }
