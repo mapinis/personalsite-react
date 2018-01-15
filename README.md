@@ -1,10 +1,7 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+# personalsite-react
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+A react-based static personalsite. The react part of it all is mainly for my practice, the cool parts aren't that useful for this site.
 
-## Running in development
-`gatsby develop`
+Main branch built with phenomic, gatsby branch written with gatsby. Right now, it looks like gatsby is the way I am going to go, but I have not yet decided.
+
+Currently contentless.
