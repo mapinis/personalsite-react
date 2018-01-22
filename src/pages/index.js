@@ -15,6 +15,7 @@ class Home extends React.Component {
                 <button onClick={() => this.setState({count: this.state.count + 1})}>+1</button>
                 <button onClick={() => this.setState({count: this.state.count - 1})}>-1</button>
                 <button onClick={() => this.setState({count: 0})}>Reset</button>
+                <p>The site is currently contentless.</p>
             </div>
         )
     }
