@@ -1,5 +1,4 @@
 import React from "react";
-//import Link from "gatsby-link";
 import { Nav, NavItem, NavLink } from 'reactstrap';
 
 import "./index.css";
@@ -18,18 +17,17 @@ const Index = ({ children }) => (
                     <NavLink href="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/">About</NavLink>
+                    <NavLink href="/about">About</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/">Blog</NavLink>
+                    <NavLink href="/programming">Programming</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/">Programming</NavLink>
+                    <NavLink href="/photography">Photography</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/">Photography</NavLink>
+                    <NavLink href="/blog">Blog</NavLink>
                 </NavItem>
-
             </Nav>
         </div>
         <div id="content">
